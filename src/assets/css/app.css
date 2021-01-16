@@ -1,0 +1,60 @@
+.flex-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.icon-size-3 {
+	font-size: 30px;
+}
+
+.icon-size-2 {
+	font-size: 22px;
+}
+
+button:focus {
+	outline: none !important;
+	outline-offset: none !important;
+}
+
+.transition-width {
+	transition: width 0.2s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.ant-layout {
+	background-color: #ebf8ff !important;
+}
+.not_found_orders {
+	display: table;
+	font-size: 30px;
+	margin: auto;
+	opacity: 0.6;
+}
+.container {
+	position: relative;
+	height: 100%;
+}
+
+.inner {
+	position: absolute;
+	width: 100%;
+}
+
+.fade-enter,
+.fade-appear {
+	opacity: 0;
+}
+
+.fade-enter.fade-enter-active,
+.fade-appear.fade-appear-active {
+	opacity: 1;
+	transition: opacity 400ms;
+}
+
+.fade-exit {
+	opacity: 1;
+}
+
+.fade-exit.fade-exit-active {
+	opacity: 0;
+	transition: opacity 200ms;
+}
